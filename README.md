@@ -2,11 +2,11 @@
 
 This project aims to predict credit card defaults based on a dataset containing a variety of demographic, credit, and financial information for credit card clients.
 
-## 📝 Project Description
+## Project Description
 
 The dataset used in this project contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients. The goal is to build and evaluate several machine learning models to accurately predict `credit_card_default`, the target variable.
 
-## 🗂️ Data
+## Data
 
 The dataset (`amex_credit_card.csv`) includes the following columns:
 
@@ -34,7 +34,7 @@ The initial dataset has 45,528 entries and 19 columns.
 
 ---
 
-## 🧹 Data Cleaning and Feature Engineering
+## Data Cleaning and Feature Engineering
 
 The notebook follows a structured approach for data preparation:
 
@@ -45,7 +45,7 @@ The notebook follows a structured approach for data preparation:
 
 ---
 
-## 🤖 Modeling
+## Modeling
 
 The project uses a pipeline to preprocess the data and train several classification models to predict `credit_card_default`. Due to the imbalanced nature of the target variable (only 8.12% of the dataset corresponds to defaults), the SMOTE-NC technique from the `imblearn` library was applied to balance the dataset before training the models. The following models were trained and evaluated:
 
@@ -55,7 +55,7 @@ The project uses a pipeline to preprocess the data and train several classificat
 
 ---
 
-## 📊 Results
+## Results
 
 The performance of the models was evaluated using a variety of metrics, including:
 
